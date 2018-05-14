@@ -52,6 +52,23 @@ class ViewController: UIViewController {
         button1.setTitle("点我一下", for: UIControlState.normal)
         button1.addTarget(self, action: #selector(ViewController.clickButton(_:)), for: UIControlEvents.touchUpInside)
         
+        button.setTitleShadowColor(UIColor.green, for: .normal)
+        button.setTitleShadowColor(UIColor.yellow, for: .highlighted)
+        button.setTitleShadowColor(UIColor.gray, for: .disabled)
+        
+        button.layer.masksToBounds = true
+        button.layer.cornerRadius = 6.0
+        
+//        button.showsTouchWhenHighlighted = true
+        
+        button1.setTitleColor(UIColor.black, for: .normal)
+        button1.setTitleColor(UIColor.green, for: .highlighted)
+        button1.setTitleColor(UIColor.gray, for: .disabled)
+        
+        button1.setImage(UIImage(named: "info"), for: .normal)
+        button1.adjustsImageWhenHighlighted = false //触摸模式下按钮也不会变暗
+        button1.adjustsImageWhenDisabled = false //极浓模式下按钮也不会变暗
+        
 //        button2.buttonType = UIButtonType.contactAdd
     }
     

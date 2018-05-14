@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					CE7D3F8D2099710F008FE8B1 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = SGSSH6AK6F;
+						DevelopmentTeam = WQYLST4B27;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -263,10 +263,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SGSSH6AK6F;
+				DEVELOPMENT_TEAM = WQYLST4B27;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sc.test.HelloWorld1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sc.test.HelloWorld2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
@@ -279,10 +279,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SGSSH6AK6F;
+				DEVELOPMENT_TEAM = WQYLST4B27;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sc.test.HelloWorld1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sc.test.HelloWorld2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
